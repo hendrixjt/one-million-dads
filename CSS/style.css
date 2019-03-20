@@ -13,8 +13,12 @@ body {
     
 }
 
-.navbar .navbar-expand-lg {
-    background-color: rgb(63, 114, 155);
+.navbar .navbar-expand-sm .navbar-light {
+    background-color: rgb(8, 8, 8);
+    
+}
+.navbar-toggler {
+   
 }
 
 .navbar-brand {
@@ -25,6 +29,10 @@ body {
     margin-top: 17px;
     padding-left: 8px;
     position: absolute;
+}
+#navbarCollapse #lead-tag{
+    margin-top: -15px;
+    font: white;
 }
 
 /* .navbar .nav-item.active {
@@ -78,12 +86,18 @@ body {
     color: #fff;
 
 }
+#testimonials {
+    margin-top: 5px;
+    color: white;
+    font-size: 1rem;
+}
 
 #media-icons {
     margin-top: 35px;
     justify-content: center;
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font: white;
 }
 
 #three-d-icons {
@@ -104,8 +118,8 @@ body {
   
   #three-d-icons li a .fa {
     font-size: 40px;
-    color: #333;
-    line-height: 100px;
+    color: white;
+    line-height: 50px;
     transition: 0.5s;
     padding-right: 14px;
   }
@@ -114,8 +128,8 @@ body {
     padding: 0;
     margin: 0;
     /* position: fixed; */
-    top: 30px;
-    color: #333;
+    top: 10px;
+    color: white;
     letter-spacing: 4px;
     transition: 0.5s;
   }
@@ -124,9 +138,9 @@ body {
     text-decoration: none;
     display: absolute;
     display: block;
-    width: 210px;
+    width: 150px;
     height: 80px;
-    background: #fff;
+    background: rgb(100, 98, 98);
     text-align: center;
     padding-left: 20px;
     transform: rotate(-30deg) skewX(25deg) translate(0,0);
@@ -185,46 +199,68 @@ body {
 
   #main-footer {
       margin-top: 50px;
+      
   }
 
-  @media (max-width: 599px){
-      #main-footer{
-          margin-top: 250px;
-      }
-      #media-icons{
-          margin-top:100px;
-      }
-  }
-
-  @media (min-width: 600px){
+ 
+  
+@media (max-width: 599px){
     #main-footer{
-        margin-top: 235px;
+        margin-top: 300px;
     }
     #media-icons{
-        margin-top:100px;
+        margin-top:135px;
+        margin-left: 45%;
+        margin-right: 45%;
+    }
+    #testimonials {
+        max-height: 18rem;
+    }
+}
+
+@media (min-width: 600px){
+    #main-footer{
+        margin-top: 300px;
+    }
+    #media-icons{
+        margin-top:125px;
+        margin-left: 45%;
+        margin-right: 45%;
+
     }
 }
 
 @media (min-width: 767px){
     #main-footer{
-        margin-top: 175px;
+        margin-top: 160px;
     }
     #media-icons{
-        margin-top:20px;
+        margin-top:30px;
+        margin-left: 4rem;
+        margin-right: auto;
     }
 }
 
 @media (min-width: 900px){
     #main-footer{
-        margin-top: 110px;
+        margin-top: 160px;
     }
     #media-icons{
-        margin-top:px;
+        margin-top:35px;
+    }
+}
+
+@media (min-width: 990px){
+    #main-footer{
+        margin-top: 100px;
+    }
+    #media-icons{
+        margin-top:35px;
     }
 }
 
 @media (min-width: 1200px){
     #main-footer{
-        margin-top: 50px;
+        margin-top: 85px;
     }
 }
