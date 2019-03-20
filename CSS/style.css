@@ -10,15 +10,11 @@ body {
     text-transform: uppercase;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
-    
 }
 
 .navbar .navbar-expand-sm .navbar-light {
     background-color: rgb(8, 8, 8);
     
-}
-.navbar-toggler {
-   
 }
 
 .navbar-brand {
@@ -26,7 +22,7 @@ body {
 }
 #lead-tag{
     font-size: 14px;
-    margin-top: 17px;
+    margin-top: -15px;
     padding-left: 8px;
     position: absolute;
 }
@@ -34,25 +30,6 @@ body {
     margin-top: -15px;
     font: white;
 }
-
-/* .navbar .nav-item.active {
-    border-left: #444 3px solid;
-} */
-
-/* #view {
-    background: url('../IMG/ripped-2034949.png') no-repeat center center fixed;
-    background-size: cover;
-} */
-
-/* #home-top-section {
-    min-height: 200px;
-    background: url('../img/ripped-2034949.png') no-repeat center center fixed;
-    background-attachment: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-} */
 
 #page-header {
     min-height: 255px;
@@ -64,6 +41,7 @@ body {
     text-align: center;
     color: #fff;
 }
+
 .dark-overlay {
     border-radius: 2px;
     background: rgba(0, 0, 0, 0.5);
@@ -84,7 +62,6 @@ body {
     background-size: cover;
     text-align: center;
     color: #fff;
-
 }
 #testimonials {
     margin-top: 5px;
@@ -127,7 +104,6 @@ body {
   #three-d-icons li a span {
     padding: 0;
     margin: 0;
-    /* position: fixed; */
     top: 10px;
     color: white;
     letter-spacing: 4px;
@@ -140,7 +116,7 @@ body {
     display: block;
     width: 150px;
     height: 80px;
-    background: rgb(100, 98, 98);
+    background: #343a40fa;
     text-align: center;
     padding-left: 20px;
     transform: rotate(-30deg) skewX(25deg) translate(0,0);
@@ -202,19 +178,20 @@ body {
       
   }
 
- 
-  
 @media (max-width: 599px){
     #main-footer{
         margin-top: 300px;
     }
     #media-icons{
-        margin-top:135px;
+        margin-top:140px;
         margin-left: 45%;
         margin-right: 45%;
     }
     #testimonials {
         max-height: 18rem;
+    }
+    #three-d-icons li a {
+        width: 135px;
     }
 }
 
@@ -223,11 +200,11 @@ body {
         margin-top: 300px;
     }
     #media-icons{
-        margin-top:125px;
+        margin-top:145px;
         margin-left: 45%;
         margin-right: 45%;
-
     }
+
 }
 
 @media (min-width: 767px){
@@ -235,7 +212,7 @@ body {
         margin-top: 160px;
     }
     #media-icons{
-        margin-top:30px;
+        margin-top:58px;
         margin-left: 4rem;
         margin-right: auto;
     }
@@ -246,7 +223,7 @@ body {
         margin-top: 160px;
     }
     #media-icons{
-        margin-top:35px;
+        margin-top:55px;
     }
 }
 
@@ -255,7 +232,7 @@ body {
         margin-top: 100px;
     }
     #media-icons{
-        margin-top:35px;
+        margin-top:40px;
     }
 }
 
